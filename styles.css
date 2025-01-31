@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'MyCustomFont'; /* 自定义字体名称 */
+    src: url('a.ttf') format('truetype'); /* 字体文件路径 */
+}
+
+html {
+    height: 100%;
+}
+
+html, body {
+    font-family: 'MyCustomFont', sans-serif; /* 设置字体为自定义字体 */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'MyCustomFont', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');  /* 修改为正确的背景图路径 */
+    background-size: cover;  /* 背景图片裁切并覆盖整个屏幕 */
+    background-position: center center;  /* 背景图片居中 */
+    background-repeat: no-repeat;  /* 禁止背景图片重复 */
+    min-height: 100vh;  /* 确保页面至少覆盖整个视口高度 */
+    background-attachment: fixed;  /*固定背景*/
+}
+
+
+/* nav是导航栏样式 */
+nav {
+    background-color: rgba(156, 115, 255, 0.7); /* 半透明背景 */
+    color: white;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+
+    position: fixed;  /*固定导航栏*/
+    top: 0; /* 固定在顶部 */
+    left: 0; /* 让它从页面左边开始 */
+    width: 100%; /* 宽度占满整个屏幕 */
+    z-index: 1000; /* 确保导航栏在最上层 */
+    padding: 0px 0; /* 可以给导航栏增加一些上下内边距 */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+}
+
+nav ul li {
+    padding: 10px 15px;
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 1.3em; /* 设置字体大小 */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* 鼠标悬停时文字变为黄色 */
+    text-decoration: none; 
+}
+
+
+/* 页面内容居中 */
+.container {
+    display: flex;
+    flex-direction: column; /* 内容垂直排列 */
+    justify-content: center; /* 垂直居中 */
+    align-items: center; /* 水平居中 */
+
+    text-align: center;
+    padding: 5px;
+    flex-wrap: wrap;  /*允许换行 */
+    margin-bottom: 30px; /* 调整与页脚的间距 */
+
+
+    margin: 60px 0; /* 上下间距增加，20px 之间的间隔 */
+}
+
+
+/* 添加半透明圆角背景的样式 */
+.text-background {
+    background-color: rgba(156, 115, 255, 0.6); /* 半透明紫色背景 */
+    border-radius: 15px; /* 圆角 */
+    padding: 15px; /* 内边距 */
+    margin: 2px 0; /* 上下间距 */
+
+    /*display: inline-block;  让它只包裹文字 */
+
+    flex: 1 1 auto; /* 让每个框的宽度占据父容器的 auto */
+    /*width: 700px;  宽为300px */
+    text-align: center; /* 文字居中 */
+
+    min-width: 70%; /* 最大宽度占满整个屏幕的70% */
+}
+
+
+/* .link-group样式 */
+.link-group {
+    margin: 20px 0;
+}
+
+.link-group h2 {
+    color: rgb(255, 187, 0);
+    margin-bottom: 10px;
+    font-size: 3em; /* 设置标题字体大小 */
+}
+
+.link-group h6 {     /*专门的空白*/
+    color: rgba(255, 187, 0, 0);
+    margin-bottom: 10px;
+    font-size: 3px; /* 设置标题字体大小 */
+}
+
+.link-group ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.link-group ul li {
+    margin: 5px 0;
+}
+
+.link-group ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2.7em; /* 设置字体大小 */
+}
+
+.link-group ul li a:hover {
+    color: #ffcc00;
+}
+
+footer {
+    background-color: rgba(156, 115, 255, 0.7); /* 半透明页脚背景颜色 */
+    color: white; /* 文字颜色 */
+    text-align: center; /* 文字居中 */
+    padding: 1px; /* 内边距 */
+    position: relative; /* 相对定位 */
+    bottom: 0; /* 距离底部为 0 */
+    width: 100%; /* 宽度占满整个屏幕 */
+    font-size: 1.1em; /* 设置字体大小 */
+}
