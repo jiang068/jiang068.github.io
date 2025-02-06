@@ -78,3 +78,5 @@ GitHub仓库展示一些开源项目喵。
 - [毒奶](https://limbopro.com/archives/1903.html)
 - [lspback](https://www.lspback.com/)
 - [imgbb.com](https://jiang0682.imgbb.com/following)
+- [cosblay](https://cosblay.com/)
+
