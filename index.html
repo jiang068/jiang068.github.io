@@ -1,159 +1,131 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>咱喵的导航页，喵~</title>
-    <!-- 引入外部 CSS 文件 -->
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>咱喵的导航页 | NekoNavi</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
 </head>
+<body class="text-gray-200 selection:bg-purple-500 selection:text-white relative min-h-screen flex flex-col">
 
-<body>
-    <!-- 导航栏 -->
-    <nav>
-        <ul>
-            <li><a href="https://www.wavetransformer.ink/">咱喵的首页 Main</a></li>
-            <li><a href="https://alist.wavetransformer.ink/">资源站 Alist</a></li>
-            <li><a href="https://blog.wavetransformer.ink/">博客 Blog</a></li>
-            <li><a href="https://jiang068.github.io/ds/">实验报告分享</a></li>
-            <li><a href="https://github.com/jiang068?tab=repositories">仓库 Github</a></li>
-        </ul>
-    </nav>
-    <!-- 页面内容 -->
-    <div class="container">
-        <!--加一个背景 -->
-        <div class="text-background">
-            <!-- 常用网站链接组 -->
-            <div class="link-group">
-                <h2>咱喵的导航页</h2>
-                <ul>
-                    <li><a href="https://www.wavetransformer.ink/" target="_blank">首页 Main</a></li>
-                    <li><a href="https://alist.wavetransformer.ink/" target="_blank">资源站 Alist</a></li>
-                    <li><a href="https://blog.wavetransformer.ink/" target="_blank">博客 Blog</a></li>
-                    <li><a href="https://jiang068.github.io/ds/" target="_blank">实验报告</a></li>
-                    <li><a href="https://github.com/jiang068?tab=repositories" target="_blank">仓库 Github</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <!--加一段空白 -->
-        <div class="link-group">
-            <h6> </h6>
-        </div> 
-        <!--加一个背景 -->
-        <div class="text-background">
-            <div class="link-group">
-                <h2>QQbot搭建教程</h2>
-                <ul>
-                    <li><a href="https://github.com/jiang068/koishi4vlab" target="_blank">koishi4vlab教程</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <!--加一段空白 -->
-        <div class="link-group">
-            <h6> </h6>
-        </div> 
-        <!--加一个背景 -->
-        <div class="text-background">
-            <div class="link-group">
-                <h2>galgame专区</h2>
-                <ul>            
-                    <li><a href="https://zi6.cc/" target="_blank">Galgame梓澪の妙妙屋</a></li>
-                    <li><a href="https://www.shinnku.com/" target="_blank">失落小站 - galgame资源站</a></li>
-                    <li><a href="https://www.kungal.com/zh-cn/" target="_blank">鲲 Galgame 论坛 - 开源 Galgame 网站</a></li>
-                    <li><a href="https://www.touchgal.io/" target="_blank">Touchgal-一站式gal社区</a></li>
-                    <li><a href="https://a.0v0.io/Rec仓库/" target="_blank">星野のAList</a></li>
-                    <li><a href="https://gelbooru.com/index.php" target="_blank">gal图库</a></li>
-                </ul>
-            </div>
-        </div>
+    <!-- Particle Background -->
+    <div class="fixed inset-0 w-full h-full overflow-hidden -z-10 bg-[#0f0c29]">
+        <!-- Gradient Base -->
+        <div class="absolute inset-0 bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] opacity-90"></div>
         
-        <!--加一段空白 -->
-        <div class="link-group">
-            <h6> </h6>
-        </div> 
-        <!--加一个背景 -->
-        <div class="text-background">
-            <div class="link-group">
-                <h2>收藏页</h2>
-                <ul>            
-                    <li><a href="https://sekai.wavetransformer.ink/" target="_blank">sekai - sekai贴纸表情包生成站（去掉了广告）</a></li>
-                    <li><a href="https://koishi.wavetransformer.ink/" target="_blank">Koishi - 配置面板（需要主人权限）</a></li>
-                    <li><a href="https://gscore.wavetransformer.ink/" target="_blank">Gscore - 早柚配置面板（需要主人权限）</a></li>
-                    <li><a href="https://wave.wavetransformer.ink/" target="_blank">waves - 鸣潮bot账号登录面板（需要特征码）</a></li>
-                    <li><a href="https://jiang0681.github.io/" target="_blank">幻影坦克制作</a></li>
-                    <li><a href="https://www.hellowindows.cn/" target="_blank">萌！萝莉 ~ blivechat弹幕抓取网</a></li>
-                    <li><a href="https://fatcatcloud.cc/" target="_blank">肥猫云(目前在用)</a></li>
-                    <li><a href="https://dhh.bar" target="_blank">大航海（目前最便宜）</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <!--加一段空白 -->
-        <div class="link-group">
-            <h6> </h6>
-        </div> 
-        <!--加一个背景 -->
-        <div class="text-background">
-            <div class="link-group">
-                <h2>常用资源</h2>
-                <ul>            
-                    <li><a href="https://ot.ustc.edu.cn/" target="_blank">蜗壳学社</a></li>
-                    <li><a href="forum.ripper.store" target="_blank">VRC模型</a></li>
-                    <li><a href="https://w14.monkrus.ws/" target="_blank">m0nkrus（els佬去前线了！啊啊啊网站寄了）</a></li>
-                    <li><a href="https://docs.qq.com/doc/DSkFFcUR3bmV2ZXlo/" target="_blank">Adobe全家桶下载地址231103</a></li>
-                    <li><a href="https://synthv.me/" target="_blank">Synthesizer V Voice Archive</a></li>
-                    <li><a href="https://www.hellowindows.cn/" target="_blank">精校 完整 极致 Windows系统下载仓储站</a></li>
-                    <li><a href="https://www.yuque.com/qianxun-nzpyh/kb" target="_blank">Adobe全套下载</a></li>
-                    <li><a href="https://steamunlocked.net/" target="_blank">STEAMUNLOCKED » Free Steam Games Pre-installed for PC</a></li>
-                </ul>
-            </div>
-        </div>
-
-
-        <!--加一段空白 -->
-        <div class="link-group">
-            <h6> </h6>
-        </div> 
-        <!--加一个背景 -->
-        <div class="text-background">
-            <div class="link-group">
-                <h2>开车喵~</h2>
-                <ul>            
-                    <li><a href="https://www.eporner.com/gallery/M5kuhggMiZI/NO-074-90P2V-2-98G/" target="_blank">子不语</a></li>
-                    <li><a href="https://sukebei.nyaa.si/" target="_blank">Sukebei</a></li>
-                    <li><a href="https://limbopro.com/archives/1903.html" target="_blank">毒奶</a></li>
-                    <li><a href="https://jiang0682.imgbb.com/following" target="_blank">imgbb.com</a></li>
-                    <li><a href="https://cosblay.com/" target="_blank">cosblay</a></li>
-                </ul>
-            </div>
-        </div>
-        <!--加一段空白 -->
-        <div class="link-group">
-            <h6> </h6>
-        </div> 
-        <!--加一个背景 -->
-        <div class="text-background">
-            <div class="link-group">
-                <h2>友链</h2>
-                <ul>            
-                    <li><a href="https://blog.tomys.top/" target="_blank">荼蘼博客</a></li>
-                    <li><a href="https://github.com/solstice23/argon-theme/" target="_blank">argon-theme</a></li>
-                    <li><a href="https://www.liveout.cn/25/" target="_blank">Freecho</a></li>
-                    <li><a href="https://blog.pinpe.top/" target="_blank">pinpe的云端~</a></li>
-                    <li><a href="https://nier.moovoo.xyz/" target="_blank">NieR:Automata-[E]nding</a></li>
-                </ul>
-            </div>
+        <!-- Image Overlay -->
+        <div class="absolute inset-0 opacity-20 bg-cover bg-center mix-blend-overlay" style="background-image: url('https://picsum.photos/1920/1080?grayscale&blur=2')"></div>
+        
+        <!-- Floating Orbs -->
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-float-1"></div>
+        <div class="absolute top-1/3 right-1/4 w-80 h-80 bg-pink-600 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-float-2"></div>
+        <div class="absolute bottom-1/4 left-1/3 w-72 h-72 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-float-3"></div>
+        
+        <!-- Noise Texture -->
+        <div class="absolute inset-0 opacity-[0.03] pointer-events-none" 
+             style="background-image: url('data:image/svg+xml,%3Csvg viewBox=\'0 0 200 200\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cfilter id=\'noiseFilter\'%3E%3CfeTurbulence type=\'fractalNoise\' baseFrequency=\'0.65\' numOctaves=\'3\' stitchTiles=\'stitch\'/%3E%3C/filter%3E%3Crect width=\'100%25\' height=\'100%25\' filter=\'url(%23noiseFilter)\'/%3E%3C/svg%3E')">
         </div>
     </div>
 
-    <!-- 页脚 -->
-    <footer>
-        <p>版权所有 &copy; 2025 咱喵的导航页</p>
+    <!-- Navbar -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400 cursor-pointer hover:opacity-80 transition-opacity">
+                        NekoNavi
+                    </span>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8 items-center" id="desktop-menu">
+                    <!-- Links injected by JS -->
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-300 hover:text-white p-2 rounded-md focus:outline-none">
+                        <i data-lucide="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" class="mobile-menu-enter md:hidden fixed top-20 left-0 w-full bg-[#1a1638]/95 backdrop-blur-xl border-b border-white/10 z-40">
+        <div class="px-4 pt-2 pb-6 space-y-1" id="mobile-menu-links">
+            <!-- Links injected by JS -->
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20 w-full">
+        
+        <!-- Hero Section -->
+        <div class="text-center mb-24 relative opacity-0 translate-y-8 transition-all duration-1000 ease-out" id="hero-section">
+            <div class="inline-flex items-center px-4 py-2 rounded-full border border-purple-500/30 bg-purple-500/10 backdrop-blur-md text-purple-300 text-sm font-medium mb-6">
+                <i data-lucide="sparkles" class="w-4 h-4 mr-2"></i>
+                <span>Welcome to my personal space</span>
+            </div>
+            
+            <h1 class="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 via-pink-300 to-blue-300 mb-6 drop-shadow-lg">
+                咱喵的导航页
+            </h1>
+            
+            <p class="max-w-2xl mx-auto text-lg text-gray-400 leading-relaxed">
+                Here you can find my resources, blogs, experimental reports, and favorite collections.
+                Explore the categories below. 喵~
+            </p>
+        </div>
+
+        <!-- Categories Container -->
+        <div id="categories-container" class="space-y-12">
+            <!-- Categories injected by JS -->
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10 bg-[#0f0c29]/80 backdrop-blur-md mt-12">
+        <div class="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p class="text-gray-400 text-sm">
+                        &copy; <span id="year"></span> 咱喵的导航页. All rights reserved.
+                    </p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="https://github.com/jiang068" target="_blank" class="text-gray-400 hover:text-white transition-colors text-sm">GitHub</a>
+                    <span class="text-gray-600">|</span>
+                    <a href="https://blog.wavetransformer.ink/" target="_blank" class="text-gray-400 hover:text-white transition-colors text-sm">Blog</a>
+                </div>
+            </div>
+        </div>
     </footer>
 
-</body>
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top-btn" class="fixed bottom-8 right-8 p-3 rounded-full bg-purple-600/80 hover:bg-purple-500 text-white shadow-lg backdrop-blur-sm transition-all hover:scale-110 focus:outline-none z-50 group opacity-0 pointer-events-none transform translate-y-4">
+        <i data-lucide="arrow-up" class="w-6 h-6 group-hover:-translate-y-1 transition-transform"></i>
+    </button>
 
+    <!-- Application Script -->
+    <script src="script.js"></script>
+</body>
 </html>
