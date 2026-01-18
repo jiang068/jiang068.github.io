@@ -1,0 +1,3 @@
+[submodule "themes/Hugo-Theme-Argon"]
+	path = themes/Hugo-Theme-Argon
+	url = https://github.com/jiang068/Hugo-Theme-Argon
