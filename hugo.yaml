@@ -2,7 +2,7 @@
 baseURL: 
 # baseURL: "https://jiang068.github.io/"
 languageCode: "zh-cn"
-title: 咱喵的博客，喵~"
+title: 咱喵的博客，喵~
 theme: "Hugo-Theme-Argon"
 
 # Hugo 摘要设置
