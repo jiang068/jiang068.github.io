@@ -65,7 +65,7 @@ params:
         url: "/"
       - name: "归档"
         url: "/archives/"
-    authorImage: "https://blog.fufultd.asia/wp-content/uploads/head.jpg"
+    authorImage: "https://imgbed.fufu.blog/file/bupMOUlz.png"
     authorName: "jiang068"
     authorDescription: ""
     authorLinks:
@@ -91,7 +91,7 @@ params:
   articleHeaderStyle: "2"  # default, 1, 2 - 样式2会在标题前显示彩色竖杠装饰
 
   # 背景
-  pageBackgroundUrl: "https://blog.fufultd.asia/wp-content/uploads/25646.jpg"
+  pageBackgroundUrl: "https://imgbed.fufu.blog/file/default/oU51Ap5A.png"
   pageBackgroundDarkUrl: ""
   pageBackgroundOpacity: 1
   transparentBanner: true
