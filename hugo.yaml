@@ -91,7 +91,7 @@ params:
   articleHeaderStyle: "2"  # default, 1, 2 - 样式2会在标题前显示彩色竖杠装饰
 
   # 背景
-  pageBackgroundUrl: "https://imgbed.fufu.blog/file/default/oU51Ap5A.png"
+  pageBackgroundUrl: "https://imgbed.fufu.blog/file/site_pics/TPQ5kST1.jpeg"
   pageBackgroundDarkUrl: ""
   pageBackgroundOpacity: 1
   transparentBanner: true
