@@ -94,9 +94,9 @@ params:
 
   # 部署阅读量 Worker 后，将 endpoint 改为 Worker 的完整地址并启用
   viewCounter:
-    enabled: false
-    endpoint: ""
-    key: ""
+    enabled: true
+    endpoint: "https://argon-view-counter.lynae.workers.dev/api/views"
+    key: "74cf15fd8be8c1831b38dbbdb4a70496ac10893ddef49119d30b4e03d6cce57d"
     showOnPreview: true
     requestTimeout: 4000
 
