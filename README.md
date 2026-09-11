@@ -78,7 +78,7 @@ jobs:
 
 
 - **Hugo的Argon移植:（正在做）** 
-[jiang068/Hugo-Theme-Argon](https://github.com/jiang068/Hugo-Theme-Argon
+[jiang068/Hugo-Theme-Argon](https://github.com/jiang068/Hugo-Theme-Argon)
 )
 
 ---

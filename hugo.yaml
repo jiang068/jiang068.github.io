@@ -1,6 +1,5 @@
 # Example configuration for Argon Hugo theme
-baseURL: 
-# baseURL: "https://jiang068.github.io/"
+baseURL: ""
 languageCode: "zh-cn"
 title: 咱喵的博客，喵~
 theme: "Hugo-Theme-Argon"
@@ -23,6 +22,7 @@ params:
   showCustomizeThemeColorPicker: true
   darkmodeAutoswitch: "system"  # false, alwayson, system, time
   enableAmoledDark: false
+  enableImmersionColor: true  # 卡片/控件使用带主题色的沉浸式背景
   cardRadius: 10
   cardShadow: "default"  # small, big, or empty
   pageLayout: "double" # double, single
@@ -30,6 +30,8 @@ params:
   articleListLayout: "1"
   font: "sans-serif"  # sans-serif, serif
   enableHeadroom: false
+  enableCodeHighlight: true
+  codeHighlightStyle: "vs2015"
 
   # 顶栏
   toolbar:
@@ -90,12 +92,19 @@ params:
   additionalContentAfterPost: ""
   articleHeaderStyle: "2"  # default, 1, 2 - 样式2会在标题前显示彩色竖杠装饰
 
+  # 部署阅读量 Worker 后，将 endpoint 改为 Worker 的完整地址并启用
+  viewCounter:
+    enabled: false
+    endpoint: ""
+    key: ""
+    showOnPreview: true
+    requestTimeout: 4000
+
   # 背景
   pageBackgroundUrl: "https://imgbed.fufu.blog/file/site_pics/TPQ5kST1.jpeg"
   pageBackgroundDarkUrl: ""
   pageBackgroundOpacity: 1
   transparentBanner: true
-  showToolbarMask: true
 
   # 浮动操作按钮
   fab:
@@ -141,12 +150,29 @@ mainSections:
 pagination:
   pagerSize: 10
 
+# 为主题的本地搜索生成 XML 索引。
+outputFormats:
+  Search:
+    mediaType: "application/xml"
+    baseName: "search"
+    isPlainText: true
+    notAlternative: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - Search
+
 # 语言设置
 defaultContentLanguage: zh-cn
 
 # Markdown 设置
 markup:
   goldmark:
+    parser:
+      attribute:
+        block: true
     renderer:
       unsafe: true
   highlight:

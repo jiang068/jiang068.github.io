@@ -106,7 +106,9 @@ On the upper left corner of the screen, click on Edit > Preferences. Then:
   </li>
 </ul>
 
-### Basic features 基础功能 {.wp-block-heading}<figure class="wp-block-image">
+### Basic features 基础功能 {.wp-block-heading}
+
+<figure class="wp-block-image">
 
 <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/EAb3oDhz.jpg'>
   <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/EAb3oDhz.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender general project startup screen" />
