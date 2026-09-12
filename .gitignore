@@ -4,8 +4,25 @@
 /.hugo_build.lock
 /hugo_stats.json
 /.hugo-test-public/
+/.nav-build-check/
 
-# OS/editor files
+# Cloudflare / local secrets
+**/.wrangler/
+**/.xdg-config/
+**/.dev.vars
+**/.env
+**/.env.*
+!**/.env.example
+!**/.dev.vars.example
+
+# Node tooling and logs
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS and editor files
 .DS_Store
 Thumbs.db
 Desktop.ini
@@ -18,11 +35,10 @@ ehthumbs.db
 *.sublime-project
 *.sublime-workspace
 
-# Local tooling and temporary files
-/node_modules/
-*.log
+# Temporary files
 *.tmp
 *.bak
+*.log
 *.swp
 *.swo
 *~
