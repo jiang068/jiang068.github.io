@@ -43,6 +43,10 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Make repository YAML available to settings page
+        run: |
+          mkdir -p static/settings
+          cp hugo.yaml static/settings/source-hugo.yaml
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
