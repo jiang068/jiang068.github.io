@@ -25,8 +25,9 @@ params:
   enableImmersionColor: true  # 卡片/控件使用带主题色的沉浸式背景
   cardRadius: 10
   cardShadow: "default"  # small, big, or empty
-  pageLayout: "double" # double, single
-  articleListWaterflow: true
+  pageLayout: "double" # double=显示左栏，single=隐藏左栏
+  articleListWaterflow: false  # 单列文章列表；开启后桌面端为 2/3 列瀑布流
+  articleListWaterflowColumns: 2  # articleListWaterflow=true 时固定桌面列数：2 或 3
   articleListLayout: "1"
   font: "sans-serif"  # sans-serif, serif
   enableHeadroom: false
@@ -150,13 +151,12 @@ mainSections:
 pagination:
   pagerSize: 10
 
-# 为主题的本地搜索生成 XML 索引。
+# 为当前 Argon 主题的本地搜索生成 JSON 索引。
 outputFormats:
   Search:
-    mediaType: "application/xml"
+    mediaType: "application/json"
     baseName: "search"
     isPlainText: true
-    notAlternative: true
 
 outputs:
   home:
