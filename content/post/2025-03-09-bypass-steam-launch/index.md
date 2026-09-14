@@ -4,7 +4,7 @@ author: jiang068
 type: post
 date: 2025-03-09T07:18:23+00:00
 url: /t/63
-featured_image: /wp-content/uploads/stles.jpg
+image: "cover.png"
 argon_hide_readingtime:
   - 'false'
 argon_meta_simple:
@@ -44,7 +44,7 @@ categories:
 
 下载 Steamless 的最新 Releases 并解压，得到 Steamless 程序。
 
-<img decoding="async" src="https://github.com/user-attachments/assets/2a26f232-c9e3-4b75-a90d-07988f148a5e" alt="Steamless 界面" /> 
+<img decoding="async" src="cover.png" alt="Steamless 界面" /> 
 
 原仓库下载地址：
 
@@ -56,7 +56,7 @@ categories:
 
 双击 steamless.exe 应用程序，导入你想要剥壳的游戏 B.exe 文件（以 Miside Demo 举例）
 
-<img decoding="async" src="https://github.com/user-attachments/assets/ac08f9b8-fa2e-438d-a542-86acb097e02c" alt="Steamless 使用示例" /> 
+<img decoding="async" src="images/02-steamless-example.png" alt="Steamless 使用示例" /> 
 
 点击 Unpack File 即可得到剥壳后的游戏 B_unpacked.exe，双击它即可直接启动游戏 B。
 
@@ -70,7 +70,7 @@ categories:
 
 下载 steamclient_loader 并解压，得到下列文件：
 
-<img decoding="async" src="https://github.com/user-attachments/assets/f3d947ed-df63-4930-a0eb-9559fe7dff83" alt="steamclient_loader 文件" /> 
+<img decoding="async" src="images/03-steamclient-loader.png" alt="steamclient_loader 文件" /> 
 
 下载地址：
 
@@ -80,7 +80,7 @@ categories:
 
 这里用双影奇境演示一遍：
 
-<img decoding="async" src="https://github.com/user-attachments/assets/831b8449-5117-4521-93db-42d656f2837c" alt="ColdClientLoader.ini 配置示例" /> 
+<img decoding="async" src="images/04-coldclientloader-config.png" alt="ColdClientLoader.ini 配置示例" /> 
 
 保存 ini 文件，双击 steamclient_loader.exe 即可运行游戏 C。
 
