@@ -97,6 +97,7 @@ params:
   comments:
     enabled: true
     allowGuests: false
+    timeZone: "Asia/Shanghai"
     endpoint: "https://blog-view-counter.fufu.blog/api/comments"
     authEndpoint: "https://blog-view-counter.fufu.blog/api/auth"
 
