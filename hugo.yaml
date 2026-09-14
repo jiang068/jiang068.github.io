@@ -93,6 +93,13 @@ params:
   additionalContentAfterPost: ""
   articleHeaderStyle: "2"  # default, 1, 2 - 样式2会在标题前显示彩色竖杠装饰
 
+  # 自建评论系统：关闭访客评论后，必须使用 GitHub 登录才能发表评论。
+  comments:
+    enabled: true
+    allowGuests: false
+    endpoint: "https://blog-view-counter.fufu.blog/api/comments"
+    authEndpoint: "https://blog-view-counter.fufu.blog/api/auth"
+
   # 部署阅读量 Worker 后，将 endpoint 改为 Worker 的完整地址并启用
   viewCounter:
     enabled: true
