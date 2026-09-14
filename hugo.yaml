@@ -15,6 +15,7 @@ permalinks:
 
 relativeURLs: false
 canonifyURLs: true
+resourceDir: "cache/resources"
 
 params:
   # 全局设置 - 还原为原始主题色，其他变体将自动计算
