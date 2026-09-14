@@ -4,7 +4,7 @@ author: jiang068
 type: post
 date: 2025-12-10T04:16:45+00:00
 url: /t/151
-featured_image: /wp-content/uploads/68d6ce82aff79.jpg
+image: "cover.jpg"
 argon_hide_readingtime:
   - 'false'
 argon_meta_simple:
@@ -110,8 +110,8 @@ On the upper left corner of the screen, click on Edit > Preferences. Then:
 
 <figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/EAb3oDhz.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/EAb3oDhz.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender general project startup screen" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='cover.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="cover.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender general project startup screen" />
 </div></figure> 
 
 This is what you’ll see upon creating a new general project. I know it can be overwhelming for a beginner, so let’s take baby steps.  
@@ -165,22 +165,22 @@ These are the most basic, bare-bones controls in Blender. Additionally, you can 
 Another method of precise modifications is selecting the Move, Rotate, or Scale tools on the left, then use the gizmo and drag it in the direction we want.  
 另一种精确修改的方法是，在左侧选择移动、旋转或缩放工具，然后使用 gizmo 并将其拖动到所需的方向。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/xfHlSNUH.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/xfHlSNUH.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender move, rotate, and scale tools" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/01-xfHlSNUH.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/01-xfHlSNUH.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender move, rotate, and scale tools" />
 </div></figure> 
 
 Now let’s get down to editing the model. With the cube selected, on the upper left corner of the viewport, you can see what mode you’re currently in. Click where it says &#8216;Object Mode&#8217; and change it to Edit Mode. You can also press Tab to hop in and out of Edit mode.  
 现在让我们进入模型编辑阶段。选中立方体后，在视图窗口的左上角，您可以看到当前所处的模式。点击显示为“Object Mode”的位置，并将其更改为“Edit Mode”。您也可以按 Tab 键在编辑模式和物体模式之间切换。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/4X1Sh8A5.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/4X1Sh8A5.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender mode selection dropdown" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/02-4X1Sh8A5.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/02-4X1Sh8A5.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender mode selection dropdown" />
 </div></figure> 
 
 Edit mode is also where you can manipulate vertices, edges, and faces however you want. If you don&#8217;t know what these are, in the following square, vertices are marked in red, edges in green, and the face in blue:  
 在编辑模式中，您可以随意操作顶点、边和面。如果您不知道这些是什么，在接下来的正方形中，顶点用红色标记，边用绿色标记，面用蓝色标记：<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/QgQw7v4c.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/QgQw7v4c.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Square showing vertices, edges, and faces" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/03-QgQw7v4c.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/03-QgQw7v4c.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Square showing vertices, edges, and faces" />
 </div></figure> 
 
 We’ll stick to vertices for now. Controls in Edit mode are basically the same as we saw before in Object mode: G to move, S to scale, R to rotate.  
@@ -194,8 +194,8 @@ Weights are the common name for what is actually called &#8216;vertex groups&#82
 Now, go down to the properties panel on the right side of the screen and click on the data tab, which is this green triangle:  
 现在，向下移动到屏幕右侧的属性面板，并点击数据标签，也就是这个绿色三角形：<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/0EQuBnc4.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/0EQuBnc4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender properties panel with data tab highlighted" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/04-0EQuBnc4.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/04-0EQuBnc4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender properties panel with data tab highlighted" />
 </div></figure> 
 
 For now, we’ll ignore everything else and focus on VGs. These are collections of vertices in a mesh that are assigned to a named group and they’re mainly used for rigging and animation. Although often used interchangeably with &#8216;weights,&#8217; technically, weight is more like a value, whereas VGs are the units that the value is assigned to.  
@@ -204,8 +204,8 @@ For now, we’ll ignore everything else and focus on VGs. These are collections 
 Let’s enter Weight Paint mode &#8211; remember, it’s the same way you would enter Edit mode or Object mode. The cube should now turn dark blue. This color means that there is no weight assigned to any of its vertices. Now, create a vertex group by clicking the [+] button, right side on the Vertex groups dropdown, and use your brush to paint every vertex of the cube until it’s red, like so:  
 让我们进入权重绘制模式 &#8211; 请记住，这是与进入编辑模式或物体模式相同的方式。此时立方体应该变成深蓝色。这种颜色表示该立方体的任何顶点都没有被分配权重。现在，点击顶点组下拉菜单右侧的[+]按钮，创建一个顶点组，并使用你的画笔为立方体的每个顶点绘制，直到它们变成红色，如下所示：<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/7bTukRzi.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/7bTukRzi.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Cube painted red in weight paint mode" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/05-7bTukRzi.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/05-7bTukRzi.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Cube painted red in weight paint mode" />
 </div></figure> 
 
 Dark blue means the weight value assigned to a vertex is 0, while red indicates a value of 1, which is the maximum that can be assigned. The more red, the higher the weight. Everything between 0 and 1 will look a different blend of blue and red: a value of 0.25 will look teal, 0.5 green, and 0.75 yellow.  
@@ -217,8 +217,8 @@ Every bone of a character’s skeleton has a vertex group assigned to it: neck, 
 And no, 3D model skeletons aren’t the same as real life skeletons. These skeletons also cover clothes, hair, and sometimes will have more bones where a real skeleton would have less and vice versa. This changes from game to game, but in Wuwa, models happen to be quite detailed. Here&#8217;s Changli&#8217;s as an example:  
 而且，3D 模型的骨架和现实中的骨架并不相同。这些骨架也会包括衣物、头发，有时会在现实中骨头较少的地方增加更多骨头，反之亦然。这种情况会因游戏而异，但在 Wuwa 中，模型往往相当详细。例如，Changli 的模型就体现了这一点：<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/LojOOY0q.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/LojOOY0q.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Changli's character model skeleton" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/06-LojOOY0q.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/06-LojOOY0q.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Changli's character model skeleton" />
 </div></figure> 
 
 So the gist of it is that for each bone, there’s a vertex group painted around it. Simple, right? Well, not so much. If we were to paint values of 1 to each vertex, like we did with our cube, animations would look very stiff. In reality, vertex groups are smoothened out and overlap with others close to them, some more than others depending on the part of the body.  
@@ -230,15 +230,15 @@ Here&#8217;s an example. Notice how these weights aren&#8217;t straight up red, 
 Let’s go back to our cube and create a second VG. This time, select the gradient tool on the left of your screen, then click and drag to paint a gradient like in the following image. After that, on the upper left corner of the screen, select Weights > Normalize all:  
 让我们回到我们的立方体，并创建一个第二个 VG。这次，选择屏幕左侧的渐变工具，然后点击并拖动以绘制一个渐变，如下面的图片所示。之后，在屏幕左上角选择权重 > 归一化所有：<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/Pvr8mi2W.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/Pvr8mi2W.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Cube with a gradient weight paint applied" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/07-Pvr8mi2W.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/07-Pvr8mi2W.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Cube with a gradient weight paint applied" />
 </div></figure> 
 
 Like the description says, this will ensure every vertex has a total weight value of 1. Since we have the second vertex group selected, by default Blender will lock it and change the value of all other unlocked VGs. If we look at our first vertex group, it should look something like this:  
 正如描述所说，这将确保每个顶点的总权重值为 1。由于我们选中了第二个顶点组，Blender 默认会锁定它，并改变所有未锁定的其他 VG 的值。如果我们查看我们的第一个顶点组，它应该看起来像这样：<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/NV4uBEX7.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/NV4uBEX7.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="First vertex group after normalization" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/08-NV4uBEX7.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/08-NV4uBEX7.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="First vertex group after normalization" />
 </div></figure> 
 
 And that’s how you weight paint! There are multiple ways to paint, and usually it won’t be so simple. But in the end, it all comes down to locking all vertex groups you want unchanged and then selecting Normalize all. Think of it like a sort of whack-a-mole game, but with a limit on the total distance that moles can stick their heads out, and depending on how hard you hit a mole, others will come out farther (maybe I’m reaching here).  
@@ -252,12 +252,12 @@ Now that we’ve covered basic editing and weight painting, it’s time to open 
 In the upper right corner of the viewport, click on the small arrow pointing left or press N to open the sidebar, then select the WWMI Tools tab.  
 在视口的右上角，点击指向左边的小箭头或者按下 N 键打开侧边栏，然后选择 WWMI Tools 标签页。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/4jXipypM.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/4jXipypM.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="WWMI Tools tab in Blender sidebar" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/09-4jXipypM.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/09-4jXipypM.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="WWMI Tools tab in Blender sidebar" />
 </div></figure> <figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/RH4VPICd.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/RH4VPICd.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="WWMI Tools tab in Blender sidebar" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/10-RH4VPICd.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/10-RH4VPICd.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="WWMI Tools tab in Blender sidebar" />
 </div></figure> 
 
 ### Dumping {.wp-block-heading}
@@ -271,15 +271,15 @@ In XXMI Launcher, go to the WWMI settings and make sure that the &#8216;Enable H
 When you&#8217;re in the game, turn on dev mode by pressing 0 on your numpad. If your keyboard is TKL &#8211; that is, it doesn’t have a numpad &#8211; you&#8217;ll have to use the on-screen keyboard. You can search it from the Windows start menu.  
 当你在游戏内时，按键盘上的数字小键盘 0 来开启开发者模式。如果你的键盘是 TKL 型号（即没有数字小键盘），则需要使用屏幕键盘。你可以在 Windows 开始菜单中搜索它。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/PWA9chaW.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/PWA9chaW.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Wuthering Waves dev mode UI" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/11-PWA9chaW.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/11-PWA9chaW.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Wuthering Waves dev mode UI" />
 </div></figure> 
 
 For this guide we’ll dump Brant. If you have him, in Wuwa go to the character screen and select him. If you don’t have Brant, you can go to Gallery > Crossing Stars and select him there. Your screen should look like this:  
 本教程我们将使用布兰特进行导出。如果你拥有他，在 Wuwa 中进入角色界面并选择他。如果你没有布兰特，可以前往画廊 > 跨越星辰并在此处选择他。你的界面应该如下所示：<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/WOFlit4g.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/WOFlit4g.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Brant selected in Wuthering Waves character screen" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/12-WOFlit4g.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/12-WOFlit4g.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Brant selected in Wuthering Waves character screen" />
 </div></figure> 
 
 Press F8 to start the dump. This will freeze the game for a few seconds. When it starts running again, you’ll know the dump is done.  
@@ -300,8 +300,8 @@ What this does is essentially a 3D screenshot of everything that’s being loade
 After the dump is done, go on Blender > WWMI Tools and change the mode to &#8216;Extract objects from dump.&#8217;  
 在导出完成后，进入 Blender > WWMI Tools，并将模式更改为&#8217;从导出中提取对象&#8217;。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/2wRQHN4O.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/2wRQHN4O.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="WWMI Tools set to 'Extract objects from dump'" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/13-2wRQHN4O.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/13-2wRQHN4O.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="WWMI Tools set to 'Extract objects from dump'" />
 </div></figure> 
 
 In the first field, Frame Dump, press the folder button and navigate to your dump. Again, it’s in your WWMI installation and it starts with &#8216;FrameAnalysis&#8217; followed by numbers indicating year, month, day, hours, minutes, and seconds. I highly recommend adding WWMI to bookmarks in Blender’s file explorer, as well as any folders you might use often.  
@@ -324,8 +324,8 @@ You might have imported Brant’s compass instead. That’s because he’s holdi
 Once you’ve renamed Brant’s dump folder, delete everything in your Blender project, set the object source to the folder you just renamed, and import the model again. In the outliner, the area in the upper right, a collection named after the folder you imported will be created, so if you renamed those random numbers and letters to just &#8216;Brant&#8217; your collection should be named Brant too. It should contain multiple meshes, named Components 1 to 5. ANything that isn&#8217;t named &#8216;Component X&#8217; will not be exported, and the number in place of X will determine which component that mesh will be a part of.  
 一旦你将 Brant 的导出文件夹重命名，删除 Blender 项目中的所有内容，将对象来源设置为刚刚重名的文件夹，并重新导入模型。在大纲视图中，右上角的区域会创建一个与导入文件夹同名的集合，因此如果你将那些随机数字和字母重命名为“Brant”，那么你的集合也应该命名为“Brant”。它应该包含多个网格，分别命名为 Components 1 到 5。任何没有以“Component X”命名的物体将不会被导出，而 X 的位置上的数字将决定该网格属于哪个组件。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/Bi01DUbc.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/Bi01DUbc.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender outliner showing Brant collection" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/14-Bi01DUbc.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/14-Bi01DUbc.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender outliner showing Brant collection" />
 </div></figure> 
 
 <ul class="wp-block-list">
@@ -334,8 +334,8 @@ Once you’ve renamed Brant’s dump folder, delete everything in your Blender p
   </li>
 </ul><figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/wv0MFby4.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/wv0MFby4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="WWMI Tools Import object settings" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/15-wv0MFby4.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/15-wv0MFby4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="WWMI Tools Import object settings" />
 </div></figure> 
 
 ### Exporting objects 导出对象 {.wp-block-heading}
@@ -349,8 +349,8 @@ As for anything in Blender, by hovering over all these boxes, you can read what 
 You can ignore the rest of the settings for now. Now, press &#8216;Export mod.&#8217;  
 你可以暂时忽略其余的设置。现在，点击“导出模组”。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/ECqCTcgS.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/ECqCTcgS.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="WWMI Tools Export object settings" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/16-ECqCTcgS.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/16-ECqCTcgS.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="WWMI Tools Export object settings" />
 </div></figure> 
 
 The mod we just exported is simply Brant’s default model, so the way we can tell the mod is working is by pressing F6, which is the key that toggles mods on and off. If you notice a quick distortion when you press it, it means the mod was exported successfully. Here’s what it looks like when pressing F6 repeatedly.  
@@ -373,22 +373,22 @@ We can now uncheck the &#8216;Copy textures&#8217; box in the export menu. As th
 Now we&#8217;ll be editing the model and remove Brant&#8217;s hat. In Object mode, select the hat. You&#8217;ll notice that the legs and arms are also being selected. Sometimes you’ll find separate parts of the body that belong to the same component.  
 现在我们将编辑模型并移除 Brant 的帽子。在物体模式下，选择帽子。你会注意到腿部和手臂也会被一同选中。有时你可能会发现属于同一部件的不同身体部分。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/OawKZJkv.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/OawKZJkv.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Multiple parts of Brant's model selected" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/17-OawKZJkv.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/17-OawKZJkv.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Multiple parts of Brant's model selected" />
 </div></figure> 
 
 Now, enter Edit mode and press [alt + Z] to toggle x-ray view, which allows us to select vertices that aren&#8217;t visible from our point of view, like the vertices in the back of the hat.  
 现在，进入编辑模式并按下 [alt + Z] 切换 X 光视图，这样我们就可以选择那些从当前视角不可见的顶点，比如帽子后面的顶点。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/lG0TjaCr.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/lG0TjaCr.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Brant's model in x-ray view with hat vertices selected" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/18-lG0TjaCr.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/18-lG0TjaCr.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Brant's model in x-ray view with hat vertices selected" />
 </div></figure> 
 
 Select all the vertices of his hat and right click > Separate > Selection (or press P > Selection). This will make the hat a separate object, named Component 4.001. You can rename it to whatever you want for convenience. Since we checked the box &#8216;ignore hidden objects,&#8217; we can hide it by clicking on the eye icon on the right. Then press export.  
 选择他帽子上的所有顶点，右键点击 > 分离 > 选择（或者按下 P > 选择）。这将使帽子成为一个独立的对象，命名为 Component 4.001。你可以为了方便将其重命名为你想要的名称。由于我们勾选了“忽略隐藏对象”选项，我们可以通过点击右侧的眼睛图标来隐藏它。然后点击导出。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/xT6BPsXi.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/xT6BPsXi.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Hat component separated and hidden in outliner" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/19-xT6BPsXi.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/19-xT6BPsXi.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Hat component separated and hidden in outliner" />
 </div></figure> 
 
 Once exported, go back to Wuwa and press F10 to reload, and the hat should now be gone.  
@@ -411,8 +411,8 @@ Let’s also delete the parts of Phoebe’s model that aren’t her hat, namely 
 With Phoebe’s mesh cleaned up, drag it into the Brant collection in the Outliner (upper right area in Blender). Make sure everything you want to be in the mod is in the Brant collection and unhidden. Now, export it.  
 在 Phoebe 的网格清理完毕后，将其拖入 Blender 中 Outliner（右上角区域）的 Brant 集合中。确保你希望包含在模组中的所有内容都在 Brant 集合中并且未隐藏。现在，导出它。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/xwb3WnCu.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/xwb3WnCu.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="In-game screenshot of Brant with distorted hat mod" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/20-xwb3WnCu.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/20-xwb3WnCu.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="In-game screenshot of Brant with distorted hat mod" />
 </div></figure> 
 
 This doesn&#8217;t looks very good. But don&#8217;t worry, I intentionally skipped some steps. There are two things we have to do to fix it: match the hat&#8217;s VGs with Brant&#8217;s, and incorporate Phoebe&#8217;s textures.  
@@ -429,15 +429,15 @@ Unhide Brant&#8217;s hat and, in Object mode, move it aside and remove its unuse
 If you look at Brant&#8217;s and Phoebe&#8217;s head VGs, you&#8217;ll notice that both are tagged as 0.  
 如果你查看 Brant 和 Phoebe 的头部 VGs，你会发现它们都被标记为 0。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/faHfghkS.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/faHfghkS.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Comparison of Brant's and Phoebe's head vertex groups" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/21-faHfghkS.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/21-faHfghkS.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Comparison of Brant's and Phoebe's head vertex groups" />
 </div></figure> 
 
 And that shouldn&#8217;t really be a surprise. I would say most character&#8217;s head VGs are number 0. However, what&#8217;s a rare coincidence is that both their hats main VGs are number 218.  
 这其实并不令人意外。我会说大多数角色的头部顶点组（VG）都是编号 0。然而，一个罕见的巧合是，他们的帽子主顶点组都是编号 218。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/PaveK8TH.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/PaveK8TH.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Comparison of Brant's and Phoebe's hat vertex groups" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/22-PaveK8TH.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/22-PaveK8TH.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Comparison of Brant's and Phoebe's hat vertex groups" />
 </div></figure> 
 
 What does this mean? Well, you could check yourself, but I&#8217;ll spare you the trouble: in both models, both VGs 0 and 218 have the exact same animations. I&#8217;d say VG 218 is pretty unnecessary and you could use the same VG for the hat and the head, but they probably had their reason when making these models.  
@@ -452,8 +452,8 @@ That aside, we still have plenty of other VGs on Phoebe&#8217;s hat. You could t
 To do that, select all vertices in Edit mode, then select VG number 0, and with Weight set to 1, click Assign.  
 为此，进入编辑模式后选择所有顶点，然后选择 VG 编号 0，将权重设为 1，点击分配。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/ZZJPqwnH.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/ZZJPqwnH.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Assigning vertices to VG 0 in Blender" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/23-ZZJPqwnH.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/23-ZZJPqwnH.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Assigning vertices to VG 0 in Blender" />
 </div></figure> 
 
 If you enter weight paint mode, you&#8217;ll see that VG number 0 looks completely red now, which, again, means that the whole hat will move along with Brant’s head. But there are many other VGs assigned to the hat. To get rid of those, select VG number 0 and then go to Weights > Normalize all, then in Toolbox mode again, select &#8216;Remove unused vertex groups.&#8217;  
@@ -471,8 +471,8 @@ If you enter weight paint mode, you&#8217;ll see that VG number 0 looks complete
 Now, hide Brant&#8217;s hat again or move it outside of the Brant collection so that it&#8217;s not included in the exported mod. With all our VGs unified, let&#8217;s export our mod.  
 现在，再次隐藏 Brant 的帽子或将它移出 Brant 的集合，这样它就不会被包含在导出的模组中。在所有 VG 统一之后，我们可以导出我们的模组了。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/PBRRnWPW.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/PBRRnWPW.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="In-game screenshot of Brant with rigged but untextured hat" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/24-PBRRnWPW.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/24-PBRRnWPW.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="In-game screenshot of Brant with rigged but untextured hat" />
 </div></figure> 
 
 It&#8217;s not distorted anymore, but it’s still looking messy. That’s because we still haven’t set up the textures for Phoebe’s hat, so let’s do just that.  
@@ -486,19 +486,19 @@ Since I didn’t explain this earlier, I’ll do it now. Each of these tabs is a
 With that out of the way, go to the &#8216;UV Editing&#8217; workspace at the top of your screen.  
 在处理完这些之后，前往屏幕顶部的“UV 编辑”工作区。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/eh3E2xSl.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/eh3E2xSl.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender UV Editing workspace tab" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/25-eh3E2xSl.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/25-eh3E2xSl.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender UV Editing workspace tab" />
 </div></figure> 
 
 In the right window, select all vertices, and in the left window, click on the button with two arrows in the upper left corner, the UV sync selection button. This syncs your selection on both sides, so if you select one vertex on the UV map, you&#8217;ll also select it on the viewport. This is just more convenient to work with most of the time.  
 在右侧窗口中，选择所有顶点，然后在左侧窗口点击左上角的两个箭头按钮，即 UV 同步选择按钮。这个功能会将你的选择同步到两侧，因此如果你在 UV 贴图中选择了一个顶点，它也会在视图窗口中被选中。这在大多数情况下会更加方便。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/wuBfEFF9.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/wuBfEFF9.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender UV sync selection button" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/26-wuBfEFF9.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/26-wuBfEFF9.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender UV sync selection button" />
 </div></figure> <figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/9eUxd3hm.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/9eUxd3hm.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender UV sync selection button" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/27-9eUxd3hm.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/27-9eUxd3hm.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender UV sync selection button" />
 </div></figure> 
 
 To preview our textures on our model before exporting, we will add a material. Each component uses a specific texture image, and since we’re adding Phoebe’s hat as Component 4, we need to make a new texture file that will work for both the hat and the body.  
@@ -507,22 +507,22 @@ To preview our textures on our model before exporting, we will add a material. E
 In the properties panel on the right, click on the red circle, the &#8216;material properties&#8217; tab, and then click on &#8216;New&#8217;.  
 在右侧的属性面板中，点击红色圆圈，选择“材质属性”标签，然后点击“新建”。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/06urbX88.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/06urbX88.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Creating a new material in Blender" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/28-06urbX88.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/28-06urbX88.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Creating a new material in Blender" />
 </div></figure> 
 
 Then with a Principled BSDF surface, click on the yellow dot, then select &#8216;Image Texture.&#8217;  
 然后使用 Principled BSDF 表面，点击黄色圆点，然后选择“图像纹理”。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/Xk2fW1Tw.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/Xk2fW1Tw.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Selecting Image Texture for material surface" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/29-Xk2fW1Tw.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/29-Xk2fW1Tw.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Selecting Image Texture for material surface" />
 </div></figure> 
 
 Click &#8216;Open.&#8217; The file explorer will be opened to select the texture you want to add. If you’re not already there, navigate to the Brant mod folder (not the dump/extracted) and look for this DDS file. Since the component we’re adding the texture for is Component 4, you want to look for images with names that start with Components-4 by hovering over the file names until you find the right one.  
 点击“打开”。文件资源管理器将打开以选择要添加的纹理。如果你不在该文件夹中，请导航到 Brant 模组文件夹（不是 dump/extracted 文件夹），并寻找这个 DDS 文件。由于我们要为组件 4 添加纹理，因此需要寻找以 Components-4 开头的图片文件，悬停在文件名上直到找到正确的文件。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/SkjadTHH.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/SkjadTHH.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="File explorer showing Component 4 DDS file" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/30-SkjadTHH.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/30-SkjadTHH.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="File explorer showing Component 4 DDS file" />
 </div></figure> 
 
 <ul class="wp-block-list">
@@ -537,15 +537,15 @@ In Object mode, select Brant&#8217;s original component 4 mesh and, instead of a
 To get rid of the transparency, go to the surface tab of the material and change alpha from &#8216;straight&#8217; to &#8216;none.&#8217;  
 去掉透明度，前往材质的表面标签页，将 alpha 从&#8217;straight&#8217;改为&#8217;none&#8217;。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/cqPAX5BZ.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/cqPAX5BZ.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Material alpha settings in Blender" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/31-cqPAX5BZ.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/31-cqPAX5BZ.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Material alpha settings in Blender" />
 </div></figure> 
 
 If you’re wondering why you can’t see your textures in the viewport, that’s because you have to change the object color under the Overlays dropdown:  
 如果你想知道为什么在视图窗口中看不到你的贴图，那是因为你需要在 Overlays 下拉菜单中更改对象颜色：<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/TwqXYkj2.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/TwqXYkj2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender viewport overlays dropdown with object color set to Texture" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/32-TwqXYkj2.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/32-TwqXYkj2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Blender viewport overlays dropdown with object color set to Texture" />
 </div></figure> 
 
 Now that our textures are all set up, with Brant&#8217;s Component 4 selected, hold shift and select Phoebe&#8217;s hat, then enter Edit mode. You&#8217;ll notice that Brant&#8217;s UVs line up perfectly with the texture, but Phoebe&#8217;s don’t. To fix this, we need to do two things: make a new image texture containing both Brant&#8217;s and Phoebe&#8217;s textures, and fit both their UV maps in a way that line up with them.  
@@ -554,15 +554,15 @@ Now that our textures are all set up, with Brant&#8217;s Component 4 selected, h
 I&#8217;ll start by making a new image using Photoshop. Go to your mod folder again and open the Component 4 texture with Photoshop. When opening this type of files, always check the box &#8216;Load Transparency as Alpha Channel&#8217;, so that we don&#8217;t get to see the transparency and instead Photoshop stores it in its own channel.  
 我将先使用 Photoshop 创建一个新图像。再次前往你的模组文件夹，用 Photoshop 打开 Component 4 的贴图。在打开此类文件时，始终勾选&#8217;将透明度作为 Alpha 通道加载&#8217;的选项，这样我们不会看到透明度，而是让 Photoshop 将其存储在自己的通道中。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/ELFOsVN0.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/ELFOsVN0.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Photoshop Intel DDS plugin import options" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/33-ELFOsVN0.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/33-ELFOsVN0.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Photoshop Intel DDS plugin import options" />
 </div></figure> 
 
 Click on &#8216;Image&#8217; in the upper left corner, select canvas size, change the width from 2048 to 4096 and set the anchor point to the middle left cell, then click OK.  
 点击左上角的&#8217;Image&#8217;，选择画布大小，将宽度从 2048 改为 4096，并将锚点设置为左中单元格，然后点击确定。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/3rnnhSE4.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/3rnnhSE4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Photoshop canvas size dialog" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/34-3rnnhSE4.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/34-3rnnhSE4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Photoshop canvas size dialog" />
 </div></figure> 
 
 Now we need to add Phoebe&#8217;s texture, which also happens to be Component 4, so we look for the fours again. But don’t drag it onto our Photoshop project; instead open it with Photoshop so that a new project is created.  
@@ -571,15 +571,15 @@ Now we need to add Phoebe&#8217;s texture, which also happens to be Component 4,
 In our new project with Phoebe’s texture, press [ctrl + A] to select the whole canvas, then [ctrl + C] to copy. Back to Brant&#8217;s texture, press M to toggle the selection tool and, at the top of the screen, change the selection style to &#8216;fixed ratio&#8217; and make sure it’s set to 1:1.  
 在我们新创建的 Phoebe 材质项目中，按下[ctrl + A]选择整个画布，然后按下[ctrl + C]复制。回到 Brant 的材质中，按下 M 切换选择工具，在屏幕顶部将选择样式改为&#8217;固定比例&#8217;，并确保设置为 1:1。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/NvUVLI9K.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/NvUVLI9K.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Photoshop selection tool with fixed ratio setting" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/35-NvUVLI9K.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/35-NvUVLI9K.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Photoshop selection tool with fixed ratio setting" />
 </div></figure> 
 
 Now click outside of the upper right corner of the canvas and drag it all the way down to the lower left corner to have a perfect square selection that covers our whole blank space. Press [ctrl + V] to paste Phoebe&#8217;s texture, and voila: A new layer will be created, fitting perfectly into the blank space.  
 现在点击画布右上角外部并将其拖动到底部左上角，以获得一个完美的正方形选择，覆盖我们整个空白区域。按下[ctrl + V]粘贴 Phoebe 的材质，这样就完成了：一个新的图层将被创建，并完美地适配空白区域。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/wixT7bL4.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/wixT7bL4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Combined texture of Brant and Phoebe in Photoshop" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/36-wixT7bL4.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/36-wixT7bL4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Combined texture of Brant and Phoebe in Photoshop" />
 </div></figure> 
 
 If your Phoebe texture looks a bit darker, you got the wrong image. Some characters have two texture images for the same component, where one is darker than the other. I don’t know what they’re for; just stick with the right one that’s not dark.  
@@ -588,15 +588,15 @@ If your Phoebe texture looks a bit darker, you got the wrong image. Some charact
 We got our texture colors ready, but we also need to copy the alpha – i.e. the transparency, which Wuwa uses for forced shadows. Go back to Phoebe’s project and, in the channels tab, select the alpha channel.  
 我们已经准备好了纹理颜色，但我们也需要复制透明度——也就是 Wuwa 用来强制阴影的部分。回到 Phoebe 的项目中，在通道标签里选择透明度通道。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/9Yx8rnFY.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/9Yx8rnFY.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Photoshop channels tab with alpha channel selected" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/37-9Yx8rnFY.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/37-9Yx8rnFY.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Photoshop channels tab with alpha channel selected" />
 </div></figure> 
 
 With the whole canvas selected, copy Phoebe&#8217;s entire alpha channel. Then in Brant’s project open the alpha channel, select the right half of the canvas like we did before, and paste it. Finally, save the image as DDS and make sure your settings look like this, then press OK.  
 在选中整个画布后，复制 Phoebe 的整个透明度通道。然后在 Brant 的项目中打开透明度通道，像之前那样选择画布的右半部分并粘贴。最后，将图片保存为 DDS 格式，并确保你的设置看起来像这样，然后点击确定。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/GROZmIWp.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/GROZmIWp.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Photoshop Intel DDS plugin save options" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/38-GROZmIWp.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/38-GROZmIWp.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Photoshop Intel DDS plugin save options" />
 </div></figure> 
 
 #### Fixing UV maps 修复 UV 图 {.wp-block-heading}
@@ -613,8 +613,8 @@ After that, do the same for Brant’s Component 4 mesh but to the other side.
 Once UVs are fixed, let’s export the mod and see how it looks.  
 一旦 UV 调整完成，让我们导出这个模组并看看效果如何。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/rWWoOvGe.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/rWWoOvGe.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="In-game screenshot of mod with correct diffuse texture but incorrect lighting" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/39-rWWoOvGe.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/39-rWWoOvGe.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="In-game screenshot of mod with correct diffuse texture but incorrect lighting" />
 </div></figure> 
 
 This still doesn&#8217;t look quite right. This is because we also have to change the normal map, which is the dark yellow texture, and the lightmap, the green and orange texture. The same way every component has a color texture (called diffuse), every component also has a normal map, though not every component has light map.  
@@ -632,8 +632,8 @@ Repeat the same process we did before when editing the diffuse texture but with 
 Also, when saving these two types of textures, use a &#8216;Linear&#8217; compression method.  
 另外，保存这两种类型的贴图时，请使用“线性”压缩方法。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/Nlv3nvwu.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/Nlv3nvwu.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="DDS save options with Linear compression highlighted" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/40-Nlv3nvwu.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/40-Nlv3nvwu.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="DDS save options with Linear compression highlighted" />
 </div></figure> 
 
 Remember that &#8216;Linear DX11+&#8217; is for normal maps and light maps and &#8216;sRGB DX11+&#8217; is for diffuse. Fast or fine doesn’t really matter.  
@@ -642,8 +642,8 @@ Remember that &#8216;Linear DX11+&#8217; is for normal maps and light maps and &
 Let’s export the mod one last time.  
 让我们最后一次导出这个模组。<figure class="wp-block-image">
 
-<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/aRAeMmOg.jpg'>
-  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="https://imgbed.fufu.blog/file/site_pics/wuwa_mod_guide/aRAeMmOg.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Final in-game screenshot of the completed hat mod on Brant" />
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='images/41-aRAeMmOg.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  decoding="async" data-original="images/41-aRAeMmOg.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Final in-game screenshot of the completed hat mod on Brant" />
 </div></figure> 
 
 It should look like this. If yours doesn’t, make sure that you’ve followed every single step. If it does, awesome! You’ve done a proper partial model port. Congrats!  

@@ -4,7 +4,7 @@ author: jiang068
 type: post
 date: 2026-06-29T13:27:21+00:00
 url: /t/164
-featured_image: /wp-content/uploads/image-20250606141820923.png
+image: "cover.jpeg"
 argon_hide_readingtime:
   - 'false'
 argon_meta_simple:
@@ -69,29 +69,29 @@ tags:
 
 ⚙️ 在软件中设置，打开https代理并将库街区添加白名单
 
-<img decoding="async" src="https://imgbed.fufu.blog/file/site_pics/kuro_token/zTfme2ob.jpeg" class="guide-img" /> 
+<img decoding="async" src="cover.jpeg" class="guide-img" /> 
 
-<img decoding="async" src="https://imgbed.fufu.blog/file/site_pics/kuro_token/GkZ3OyLb.png" alt="image-20250606141820923" class="guide-img large" /> 
+<img decoding="async" src="images/01-GkZ3OyLb.png" alt="image-20250606141820923" class="guide-img large" /> 
 
-<img decoding="async" src="https://imgbed.fufu.blog/file/site_pics/kuro_token/7wobcFgV.png" alt="image-233" class="guide-img large" /> 
+<img decoding="async" src="images/02-7wobcFgV.png" alt="image-233" class="guide-img large" /> 
 
 🔐 然后登录库街区（如果已经登录可以跳过）
 
 ▶️ 然后点击右下角开始按钮，必须在已经库街区登录状态下
 
-<img decoding="async" src="https://imgbed.fufu.blog/file/site_pics/kuro_token/kM9X9LWB.png" alt="image-20250606141852752" class="guide-img" /> 
+<img decoding="async" src="images/03-kM9X9LWB.png" alt="image-20250606141852752" class="guide-img" /> 
 
 👤 在库街区点开自己的账号信息（可以看到体力信息和角色柜的那个界面），如果进入库街区显示没网，就先把刚刚那个软件从后台删掉，在库街区中先点到能看角色面板的那个页面。此时再回去打开开始按钮，然后在库街区上滑刷新，等看到数据以后，退出库街区。
 
 📦 回到软件，搜索栏直接搜索token，点击如图所示的包（如图，右边符号是花括号{}），大小约为1.3kb
 
-<img decoding="async" src="https://imgbed.fufu.blog/file/site_pics/kuro_token/OlIhm9LB.jpeg" class="guide-img" /> 
+<img decoding="async" src="images/04-OlIhm9LB.jpeg" class="guide-img" /> 
 
 🔍 点开第二项，找到did字段和token字段
 
 did字段和token字段大致格式如图。did有时可能存在devCode字段中。
 
-<img decoding="async" src="https://imgbed.fufu.blog/file/site_pics/kuro_token/UOFCwwel.jpeg" class="guide-img" /> 
+<img decoding="async" src="images/05-UOFCwwel.jpeg" class="guide-img" /> 
 
 ## 三、Bot登录 {.wp-block-heading}
 
@@ -101,7 +101,7 @@ did字段和token字段大致格式如图。did有时可能存在devCode字段�
 
 ❗注意命令本身是 “ww添加token”（不是ww添加token，did），后面紧跟 token内容，did内容。逗号是需要打的，先token后did。该步骤相当于绑定设备。不要输入额外的东西
 
-<img decoding="async" src="https://imgbed.fufu.blog/file/site_pics/kuro_token/SQqGKo1b.jpg" class="guide-img medium" /> 
+<img decoding="async" src="images/06-SQqGKo1b.jpg" class="guide-img medium" /> 
 
 ## 💡 解释 {.wp-block-heading}
 

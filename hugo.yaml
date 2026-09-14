@@ -117,7 +117,7 @@ params:
 
   # 浮动操作按钮
   fab:
-    showDarkmodeButton: false
+    showDarkmodeButton: true
     showSettingsButton: true
     showGotocommentButton: false
 
