@@ -5,13 +5,10 @@ type: post
 date: 2026-03-22T22:07:28+08:00
 draft: false
 url: /t/166
-featured_image: 
 argon_hide_readingtime:
   - 'false'
 argon_meta_simple:
   - 'false'
-argon_first_image_as_thumbnail:
-  - default
 argon_show_post_outdated_info:
   - default
 views:

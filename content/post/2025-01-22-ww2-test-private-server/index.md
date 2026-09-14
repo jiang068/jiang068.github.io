@@ -4,15 +4,12 @@ author: jiang068
 type: post
 date: 2025-01-21T20:20:14+00:00
 url: /t/16
-featured_image: /wp-content/uploads/phb.jpg
 views:
   - 885
 argon_hide_readingtime:
   - 'false'
 argon_meta_simple:
   - 'false'
-argon_first_image_as_thumbnail:
-  - default
 argon_show_post_outdated_info:
   - default
 categories:

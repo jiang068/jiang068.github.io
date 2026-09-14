@@ -4,15 +4,12 @@ author: jiang068
 type: post
 date: 2024-12-08T03:10:00+00:00
 url: /t/19
-featured_image: /wp-content/uploads/koishi.jpg
 views:
   - 976
 argon_hide_readingtime:
   - 'false'
 argon_meta_simple:
   - 'false'
-argon_first_image_as_thumbnail:
-  - default
 argon_show_post_outdated_info:
   - default
 categories:
