@@ -114,6 +114,9 @@ params:
   pageBackgroundUrl: "https://imgbed.fufu.blog/file/site_pics/TPQ5kST1.jpeg"
   pageBackgroundDarkUrl: ""
   pageBackgroundOpacity: 1
+  pageBackgroundBlur:
+    enabled: true
+    max: 8
   transparentBanner: true
 
   # 浮动操作按钮
