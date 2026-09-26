@@ -3,7 +3,7 @@
 欢迎来玩！
 
 - **GitHub Pages 地址:** [jiang068.github.io](https://jiang068.github.io)
-- **Cloudflare Pages 镜像:** [fufu.blog](https://fufu.blog)
+- **Cloudflare Pages 地址:** [blog.deniia.com](https://blog.deniia.com)
 
 ---
 
@@ -57,7 +57,7 @@ jobs:
 
 | 项目         | 配置                                                 |
 | ------------ | ---------------------------------------------------- |
-| **构建命令** | `hugo --gc --minify --baseURL "https://fufu.blog/"` |
+| **构建命令** | `hugo --gc --minify --baseURL "https://blog.deniia.com/"` |
 | **构建输出** | `public`                                             |
 
 ##### 环境变量
